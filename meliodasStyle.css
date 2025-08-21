@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+min-height: 100vh;
+}
+header {
+    background-color: #0f0f0f;
+    text-align: center;
+    box-shadow: 0 0 15px #00ff88;
+    
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+}
+ p {
+    padding-bottom: 50px;
+   color: #E1E1E1; 
+   font-size: 1.5rem;
+  line-height: 2.2rem;
+  font-family: 'Georgia', "Times New Roman", serif;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.315);
+   
+}
+header > h1 {
+    padding: 50px;
+     color: #FFD700; 
+  text-shadow: 0 0 10px #00ff88; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer { 
+    background-color: #0f0f0f ;
+    color: #FFD700;
+    font: normal 16pt Arial;
+    text-align: center;
+}
+section.imagem {
+    background-color:   #00ff88 ;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.158);
+    background-attachment: fixed;
+    
+}
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.822);
+}
+section#img1 {
+    background-image: url('fundo-meliodas.png');
+}
+section#img2 {
+    background-image: url('meliodas-elizabeth.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000; 
+     background-size: cover;
+}
+section > * {
+    line-height: 2em;
+    padding-left: 40px;
+}
